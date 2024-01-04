@@ -10,7 +10,7 @@ import java.util.List;
 @Component
 public class LeerlingRepository {
     public List<Leerling> findAll() {
-        try (var stream = Files.lines(Path.of("/data/leerlingen.csv"))) {
+        try (var stream = Files.lines(Path.of("C:/data/leerlingen.csv"))) {
             return stream
                     .map(regel -> regel.split(","))          //regel splitsen in zijn onderdelen
                     .map(regelOnderdelen ->

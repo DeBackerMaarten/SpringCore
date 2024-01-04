@@ -5,8 +5,6 @@ import be.vdab.taken.lessen.LesRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
-import java.sql.SQLOutput;
-
 @Component
 
 public class MyRunner implements CommandLineRunner {
